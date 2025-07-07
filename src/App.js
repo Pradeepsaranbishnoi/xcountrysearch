@@ -29,7 +29,7 @@ function App() {
       <h1>Countries List</h1>
       <input
         type="text"
-        placeholder="Search countries..."
+        placeholder="Search for countries..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         className="search-bar"
